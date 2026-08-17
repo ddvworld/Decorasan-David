@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.decorasan_project"
-    compileSdk = 34  // تغییر داده شد
+    compileSdk = 36  // تغییر داده شد
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -16,7 +16,7 @@ android {
     defaultConfig {
         applicationId = "com.example.decorasan_project"
         minSdk = 21  // مقداردهی شد
-        targetSdk = 34  // تغییر داده شد
+        targetSdk = 36  // تغییر داده شد
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }
