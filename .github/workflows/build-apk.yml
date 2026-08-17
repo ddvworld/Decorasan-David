@@ -11,8 +11,11 @@ jobs:
       - name: دریافت کد از مخزن
         uses: actions/checkout@v4
 
-      - name: نمایش محتوای AndroidManifest.xml (برای اطمینان)
-        run: cat android/app/src/main/AndroidManifest.xml
+      - name: بررسی AndroidManifest.xml
+        run: |
+          echo "=== محتوای AndroidManifest.xml ==="
+          cat android/app/src/main/AndroidManifest.xml
+          echo "=== پایان ==="
 
       - name: نصب Java
         uses: actions/setup-java@v3
