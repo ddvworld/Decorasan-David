@@ -14,11 +14,14 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.decorasan_project"
-        minSdk = 21
-        targetSdk = 36
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+            applicationId = "com.example.decorasan_project"
+            minSdk = 21
+            targetSdk = 36
+            versionCode = flutter.versionCode
+            versionName = flutter.versionName
+            // این خط را اضافه کنید
+            manifestPlaceholders = [flutterEmbedding: "2"]
+        
     }
 
     buildTypes {
