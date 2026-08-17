@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-            applicationId = "com.example.decorasan_project"
+            applicationId = "com.example.decorasan_project2"
             minSdk = 21
             targetSdk = 36
             versionCode = flutter.versionCode
